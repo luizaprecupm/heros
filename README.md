@@ -30,7 +30,7 @@ Here we are using all the defined Actions and chain them in such a way that we w
  The framework also has protocols with default implementations using extensions, allowing you to define shared behavior while still allowing individual types to customize specific aspects.
 
 **Extensions**
-We make use of the extensions as well Extensions as they allow us to add new functionality to existing classes, structures, enumerations, or protocols without modifying their original implementation. 
+We make use of the protocol extensions as they allow us to add new functionality to existing classes, structures, enumerations, or protocols without modifying their original implementation. 
 
 
 ## Running the UI Tests

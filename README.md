@@ -16,7 +16,7 @@ This project's only dependency is the SDWebImage SwiftPM package.
 ##   Design Pattern Used  — XCUITest with Page Object Model (POM)
 
 **Screen Class:**
-The basic concept is that each screen will have a corresponding screen class containing XCUIElements specific for that screen. This means that in case our  view’s elements locators change, we’ll have to do minimal work by changing variables only here. 
+The basic concept is that each screen will have a corresponding screen class containing XCUIElements specific for each of them. This means that in case our  view’s elements locators change, we’ll have to do minimal work by changing variables only here. 
 
 **Action Class**
  The Action Class will have an instance of the screen class which will allow us to interact with the XCUIElements and perfom any actions on them: like tap(), XCTAssertTrue etc
